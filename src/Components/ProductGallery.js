@@ -108,7 +108,7 @@ const [popup, setpopup] = useState(false);
                             
                             
                         </div>
-                        <div className="daily border h-screen64  md:h-max overflow-y-scroll flex flex-wrap justify-center items-center pt-4 mt-4 text-gray-600 " >  
+                        <div className="daily  h-screen64 tailwind-scrollbar-hide md:h-max overflow-y-scroll flex flex-wrap justify-center items-center pt-4 mt-4 text-gray-600 " >  
                         {products.map ((clip) =>
                             <ProductItem
                                 key={clip.id}
